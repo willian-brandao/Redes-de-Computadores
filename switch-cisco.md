@@ -31,5 +31,21 @@ User Access Verification
 
 Password: 
 ```
+Configurar a senha do modo privilegiado
+
+```
+S1>enable
+S1#configure terminal
+S1 (config)#enable
+S1 (config)#enable password [senha]
+S1 (config)# exit
+```
+Após realizar essa configuração, ao acessar o console e tentar acessar novamennte o modo privilegiado, a senha será requerida. 
+```
+S1>enable
+Password:
+```
+
+
 
 
