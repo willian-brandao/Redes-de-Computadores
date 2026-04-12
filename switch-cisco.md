@@ -45,6 +45,14 @@ Após realizar essa configuração, ao acessar o console e tentar acessar novame
 S1>enable
 Password:
 ```
+As senhas usadas dessa forma, são armazenadas em texto simples, o que não é interessante para um dispositivo de acesso à rede. Nesse caso, é necessário usar a configuração de senha de modo criptografado. 
+```
+S1>enable
+S1#configure terminal
+S1 (config)#enable
+S1 (config)#enable secret [senha]
+S1 (config)# exit
+```
 
 
 
