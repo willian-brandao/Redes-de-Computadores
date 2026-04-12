@@ -61,5 +61,12 @@ S1 (config)#service password-encryption
 S1 (config)# exit
 ```
 
+É importante que os dispositivos da rede tenham um banner para informar sobre o dispositivo ou inibir o uso por pessoas não autorizadas.
+```
+S1#configure terminal 
+S1(config)#banner motd "This is a secure system. Authorized Access Only!"
+S1(config)#
+S1(config)#exit
+```
 
 
