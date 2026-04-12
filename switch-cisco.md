@@ -53,7 +53,13 @@ S1 (config)#enable
 S1 (config)#enable secret [senha]
 S1 (config)# exit
 ```
-
+Para que todas as senhas configuradas estejam criptografadas, usa-se o comando abaixo:
+```
+S1>enable
+S1#configure terminal
+S1 (config)#service password-encryption
+S1 (config)# exit
+```
 
 
 
